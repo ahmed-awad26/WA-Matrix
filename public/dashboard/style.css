@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #0b0f14; color: #e8eef6; }
+header { padding: 16px; border-bottom: 1px solid #1f2a37; display:flex; align-items:center; justify-content:space-between; }
+h1 { margin: 0; font-size: 20px; }
+main { padding: 16px; display:grid; gap: 12px; }
+.card { background:#0f1720; border:1px solid #1f2a37; border-radius:12px; padding:12px; }
+.row { display:flex; gap:8px; flex-wrap:wrap; }
+input, textarea { background:#0b0f14; color:#e8eef6; border:1px solid #1f2a37; border-radius:10px; padding:10px; width: 100%; }
+textarea { min-height: 260px; }
+button { background:#162235; border:1px solid #22324a; color:#e8eef6; border-radius:10px; padding:10px 14px; cursor:pointer; }
+pre { white-space: pre-wrap; background:#0b0f14; border:1px solid #1f2a37; border-radius:10px; padding:10px; overflow:auto; }
+.msg { border-bottom:1px dashed #1f2a37; padding:8px 0; }
+.small { opacity: .75; font-size: 12px; }

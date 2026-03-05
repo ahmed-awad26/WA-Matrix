@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>WA-Matrix Dashboard</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <header>
+    <h1>WA-Matrix</h1>
+    <div id="status">...</div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>إرسال رسالة</h2>
+      <div class="row">
+        <input id="to" placeholder="to: +201xxxxxxxxx"/>
+        <input id="text" placeholder="النص"/>
+        <button id="sendBtn">Send</button>
+      </div>
+      <pre id="sendOut"></pre>
+    </section>
+
+    <section class="card">
+      <h2>آخر الرسائل</h2>
+      <button id="refreshBtn">Refresh</button>
+      <div id="messages"></div>
+    </section>
+
+    <section class="card">
+      <h2>Rules</h2>
+      <button id="loadRules">Load</button>
+      <button id="saveRules">Save</button>
+      <textarea id="rulesBox" spellcheck="false"></textarea>
+      <pre id="rulesOut"></pre>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
