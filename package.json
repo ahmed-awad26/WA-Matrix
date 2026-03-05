@@ -1,0 +1,14 @@
+{
+  "name": "wa-matrix",
+  "version": "1.0.0",
+  "description": "WA-Matrix (Cloud API) - Auto Reply, Media Downloader, AI Assistant, Dashboard",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
