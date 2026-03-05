@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "defaults": {
+    "reply_unknown": false,
+    "unknown_reply_text": "تم الاستلام ✅"
+  },
+  "rules": [
+    {
+      "id": "help",
+      "match": {
+        "type": "contains",
+        "text": "!help"
+      },
+      "reply": {
+        "type": "text",
+        "text": "أوامر WA-Matrix:\n!help\n!stats\n!lists\n!addlist اسم\n!add  اسم  رقم\n!ai سؤالك"
+      }
+    },
+    {
+      "id": "hello",
+      "match": {
+        "type": "regex",
+        "text": "^(hi|hello|اهلا|السلام عليكم)$"
+      },
+      "reply": {
+        "type": "text",
+        "text": "أهلاً بيك 👋\nقلّي تحب أساعدك إزاي؟"
+      }
+    }
+  ]
+}
